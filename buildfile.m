@@ -4,11 +4,10 @@ plan.DefaultTasks = "helloworld";
 %plan("archive").Dependencies = ["check" "test"];
 end
 
-function helloworld
+function helloworld(~)
     fprintf('\n=============')
     fprintf('\nHello, World!\n')
     fprintf('=============\n')
-    
 end
 
 %{

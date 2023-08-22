@@ -1,6 +1,6 @@
 %% Build Process
 bdclose('all');
-model = 'arduino_BasicModel_ci';
+model = 'simulink';
 % Open the system
 open_system(model);
 % 

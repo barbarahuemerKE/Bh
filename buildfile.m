@@ -1,7 +1,14 @@
 function plan = buildfile
 plan = buildplan(localfunctions);
-plan.DefaultTasks = "HelloWorld.helloworld";
+plan.DefaultTasks = "helloworld";
 %plan("archive").Dependencies = ["check" "test"];
+end
+
+function helloworld
+    fprintf('\n=============')
+    fprintf('\nHello, World!\n')
+    fprintf('=============\n')
+    
 end
 
 %{

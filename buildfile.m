@@ -1,6 +1,6 @@
 function plan = buildfile
 plan = buildplan(localfunctions);
-%plan.DefaultTasks = "archive";
+plan.DefaultTasks = HelloWorld;
 %plan("archive").Dependencies = ["check" "test"];
 end
 

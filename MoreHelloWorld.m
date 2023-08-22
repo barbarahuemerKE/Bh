@@ -1,10 +1,10 @@
 funktion main 
-  fprintf("hello funktion");
-  fprintf("");
+  fprintf('\nHello funktion\n');
+  fprintf('\n');
   helloworlds();
 end
 
 funktion helloworlds()
-  fprintf("hello main");
+  fprintf('\nHello main');
 end
 

@@ -1,1 +1,1 @@
-fprintf ('hello World 1');
+fprtf ('hello World 1');

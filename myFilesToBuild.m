@@ -1,3 +1,4 @@
-mathello1
-mathello2
+%mathello1
+%mathello2
+build_lib
 exit

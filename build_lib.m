@@ -1,3 +1,4 @@
+fprintf('HelloWorld1');
 cfg = Simulink.fileGenControl('getConfig');
 cfg.CacheFolder = fullfile('C:\ProgramData\Jenkins\.jenkins\workspace\simulink','generatedCache');
 cfg.CodeGenFolder = fullfile('C:\ProgramData\Jenkins\.jenkins\workspace\simulink','generatedCode');

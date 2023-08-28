@@ -1,3 +1,9 @@
+cfg = Simulink.fileGenControl('getConfig');
+cfg.CacheFolder = fullfile('C:\ProgramData\Jenkins\.jenkins\workspace\simulink\generatedCache','generatedCache');
+cfg.CodeGenFolder = fullfile('C:\ProgramData\Jenkins\.jenkins\workspace\simulink\generatedCode','generatedCode');
+Simulink.fileGenControl('setConfig', 'config', cfg,'createDir',true);
+
+
 model= 'simulink';
 open_system(model)
 cs = getActiveConfigSet(model);

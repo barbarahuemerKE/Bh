@@ -7,7 +7,7 @@ function codegeneration
     
     
     model= 'simulink';
-    open_system(model)
+    open_system(model);
     cs = getActiveConfigSet(model);
     %openDialog(cs);
     slbuild(model); %,'ModelReferenceCoderTarget'

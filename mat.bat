@@ -1,5 +1,5 @@
 setlocal enabledelayedexpansion
-SET MATLABROOT="C:\Program Files\MATLAB\R2023a"
+SET MATLABROOT="C:/Program Files/MATLAB/R2023a"
 PATH=%MATLABROOT%;%PATH%
-START call C:\Program Files\MATLAB\R2023a\bin\matlab.exe -batch "build_lib" %1 -logfile c:\temp\logfile
-PAUSE
+matlab -nosplash -noFigureWindows -wait -r "try; run('C:/ProgramData/Jenkins/.jenkins/workspace/simulink/build_lib.m'); catch; end; quit"
+        
